@@ -1,0 +1,150 @@
+body{
+    background: url("https://static.wixstatic.com/media/fc6424_2a3675fcdcef447884068c62d9b39b20~mv2.gif") fixed;
+}
+@font-face {
+    font-family: die-nasty;
+    src: url("../fonts/die nasty.otf") format("opentype");
+}
+.icon-bar {
+    width: 22px;
+    height: 2px;
+    background-color: white;
+    display: block;
+    transition: all 0.2s;
+    margin-top: 4px;
+}
+.navbar-toggler {
+    border: none;
+}
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+.nav-link{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin-right: 5px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.nav-link:hover{
+    color: #3e3e3e;
+}
+.navbar{
+    background: black;
+    padding-bottom: 50px !important;
+}
+.navbar-brand img{
+    width: 300px;
+}
+.hidden{
+    opacity: 0;
+}
+.navbar-nav{
+    padding-right: 50px;
+}
+.fa-instagram{
+    padding-top: 10px !important;
+}
+.logo{
+    font-family: die-nasty, sans-serif !important;
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+.custom-font{
+    font-family: die-nasty, sans-serif !important;
+}
+.color-red{
+    color: #ff5454;
+}
+#sponsor-image-container{
+    margin-top: 300px;
+}
+.col-lg-3{
+    border-radius: 20px;
+}
+#tim-col{
+    background-color: white;
+}
+#psi-col{
+    background-color: white;
+    width: 90%;
+}
+#psi{
+    width:200px;
+}
+#sponsor-image-container .row .col-lg-3{
+    margin: 20px;
+}
+.tba{
+    font-size: 60px;
+    font-family: die-nasty, sans-serif;
+    background-color: white;
+    padding: 70px 20px;
+    border-radius: 30px;
+}
+footer{
+    background-color: white;
+    margin-top: 200px;
+    padding-top: 20px;
+}
+.fade-1{
+    animation: fade 2s ease-out forwards;
+}
+.fade-2{
+    animation: fade 2s ease-out forwards;
+    animation-delay: 0.3s;
+}
+.fade-3{
+    animation: fade 2s ease-out forwards;
+    animation-delay: 0.6s;
+}
+.fade-4{
+    animation: fade 2s ease-out forwards;
+    animation-delay: 1s;
+}
+.hidden{
+    opacity: 0;
+}
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#credit, #pages, #contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+a{
+    color: black !important;
+}
+#title{
+    font-size: 60px;
+}
