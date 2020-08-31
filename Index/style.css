@@ -118,7 +118,9 @@ body{
     margin-right: 13px;
     margin-left: 13px;
 }
-
+#team-title{
+    margin-bottom: 50px;
+}
 #positions{
     padding-left: 25px;
     padding-right: 25px;
@@ -183,6 +185,17 @@ footer{
 a{
     color: black !important;
 }
+#odd-picture{
+    width: 229px;
+    border-radius: 50%;
+}
+#odd-text{
+    margin-top: 33px;
+}
+#member-title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 @media (max-width: 767px) {
     #fire-logo{
         width: 500px;
@@ -190,10 +203,18 @@ a{
     #team{
         padding: 100px 100px 100px;
     }
+    #about-us-container{
+        background-color: #ef4747;
+        padding: 50px;
+    }
+    #about-us-main{
+        background-color: black;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
 }
 @media (max-width: 858px) {
     #team{
         padding: 100px 50px 50px;
     }
 }
-
