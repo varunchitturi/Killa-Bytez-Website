@@ -146,12 +146,73 @@ a{
 .small-text{
     font-size: 12px;
 }
+#beginning-container{
+    margin-top: 70px;
+    padding-bottom: 50px;
+    border-bottom: #ff4949 15px solid;
+}
+#beginning-text-container{
+    padding-right: 75px;
+}
+#software-container{
+    padding-top: 50px;
+}
+#carousel-container-2{
+    padding-top: 50px;
+}
+.robot-image-trio{
+    padding: 20px;
+}
+#build-container{
+    margin-top: 50px;
+    border-bottom: #ff4949 15px solid;
+    padding-bottom: 50px;
+}
+.initial-image{
+    padding: 20px;
+}
+#initial-container{
+    margin-top: 50px;
+}
+#initial-text{
+    padding-top: 50px;
+}
+#build-text-container{
+    margin-left: 130px;
+}
+#final-container{
+    padding-top: 50px;
+}
+#final-image-container{
+    margin-right: 50px;
+}
+#final-text-container{
+    margin-left: 50px;
+}
+#beginning-image-container{
+    width: 300px;
+}
 @media (max-width: 991px) {
+    #final-image-container{
+        margin-right: 0;
+    }
+    #final-text-container{
+        margin-left: 0;
+    }
+    #final-image-container{
+        padding-top: 50px;
+    }
+    #initial-text{
+        padding-top: 0;
+    }
     #star-container{
         padding: 50px;
         border-right: white 0 solid;
         border-bottom: white 5px solid;
         margin-top: 30px;
+    }
+    #build-text-container{
+        margin-left: 0;
     }
     #star-background{
         width: 250px;
@@ -164,12 +225,30 @@ a{
         top: 370px;
         right :250px
     }
+
+    #beginning-text-container{
+        padding-right: 0;
+    }
+    #carousel-container-2{
+       width: 400px;
+    }
 }
 @media (max-width: 767px) {
-    #qualcomm{
-        position: absolute;
-        border-radius: 50%;
+    #qualcomm {
+
         top: 370px;
-        right :160px
+        right: 162px
+
+    }
+
+}
+@media (max-width: 575px) {
+    #qualcomm {
+        position: static;
+        margin-top: -270px;
+    }
+    #star-container{
+
+        position: relative;
     }
 }
