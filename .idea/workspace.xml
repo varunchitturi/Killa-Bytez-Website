@@ -10,7 +10,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92f52d8e-fdd9-4d9c-9c50-dad48025244f" name="Default Changelist" comment="finish members and adjustments" />
+    <list default="true" id="92f52d8e-fdd9-4d9c-9c50-dad48025244f" name="Default Changelist" comment="finish members and adjustments">
+      <change afterPath="$PROJECT_DIR$/Images/Gaurav.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Shashank.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/arnav.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/faraaz.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +46,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -50,14 +57,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Images" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Images" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/fonts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Images" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -67,13 +74,13 @@
     <configuration default="true" type="JavascriptDebugType" uri="http://index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Documents/Coding/Project_Development/Killa-Bytez-Website/index.html">
+    <configuration name="index.html" type="JavascriptDebugType" nameIsGenerated="true" uri="file://$PROJECT_DIR$/index.html">
       <method v="2" />
     </configuration>
     <configuration name="skystone.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Killa-Bytez-Website/Skystone/skystone.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="sponsors.html" type="JavascriptDebugType" uri="file://$USER_HOME$/Library/Mobile Documents/com~apple~CloudDocs/Documents/Coding/Project_Development/Killa-Bytez-Website/Sponsors/sponsors.html">
+    <configuration name="sponsors.html" type="JavascriptDebugType" uri="file://$PROJECT_DIR$/Sponsors/sponsors.html">
       <method v="2" />
     </configuration>
     <list>
@@ -100,6 +107,7 @@
       <workItem from="1598650088231" duration="47176000" />
       <workItem from="1598854889406" duration="218000" />
       <workItem from="1598858163284" duration="203000" />
+      <workItem from="1600200387753" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="skystone">
       <created>1598835142965</created>
